@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using GeometriaModels.DALs;
+
+namespace GeometriaModels.Models
+{
+    internal class RectanguloModel : FiguraModel
+    {
+        public double? Ancho {  get; set; }
+        public double? Largo { get; set; }
+    }
+}
